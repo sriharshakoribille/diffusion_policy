@@ -101,3 +101,6 @@ def test():
     mat_det = np.linalg.det(mat)
     assert np.allclose(mat_det, 1)
     # rotaiton_6d will be normalized to rotation matrix
+
+if __name__ == '__main__':
+    test()
